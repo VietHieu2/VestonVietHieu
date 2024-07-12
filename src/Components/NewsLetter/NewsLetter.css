@@ -129,3 +129,26 @@
         font-size: 13px;
     }
 }
+
+@media(max-width: 500px) {
+    .newsletter {
+        height: 25vh;
+        width: 100%;
+        padding: 0;
+        gap: 15px;
+    }
+    .newsletter h1 {
+        font-size: 16px;
+    }
+    .newsletter p {
+        font-size: 13px;
+        max-width: 200px;
+        text-align: center;
+    }
+    .newsletter div {
+        width: 290px;
+    }
+    .newsletter div input {
+        width: 130px;
+    }
+}
